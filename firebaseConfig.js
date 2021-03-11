@@ -1,4 +1,6 @@
-module.exports = {
+import {firebaseConfig} from './config.local.ts'
+
+const defaultExports = {
   apiKey: '#',
   authDomain: '#',
   databaseURL: '#',
@@ -7,3 +9,8 @@ module.exports = {
   messagingSenderId: '#',
   appId: '#',
 };
+
+module.exports = {
+  ...defaultExports,
+  ...firebaseConfig()
+}

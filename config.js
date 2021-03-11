@@ -1,19 +1,18 @@
 'use strict';
 
 module.exports = {
-  siteUrl: 'https://naughty-clarke-9af4d5.netlify.com',
+  siteUrl: 'https://workout.ondrahlavac.cz',
   app: {
     url: 'http://gatsby.com',
     title: 'gatsby-firebase-starter',
     description: 'gatsby-firebase-starter',
     titleTemplate: 'gatsby-firebase-starter',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
+      'No subtitle yet.',
+    copyright: '©2021 All rights reserved.',
     disqusShortname: '',
     postsPerPage: 4,
     image: 'gatsby-firebase-starter',
-    twitterUsername: 'gatsby-firebase-starter',
   },
   home: {
     url: 'http://gatsby-firebase-starter.com',
@@ -22,24 +21,18 @@ module.exports = {
     titleTemplate: 'gatsby-firebase-starter',
     subtitle:
       'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
-    disqusShortname: '',
+    copyright: '©2020 All rights reserved.',
     postsPerPage: 4,
     image: 'gatsby-firebase-starter',
-    twitterUsername: 'gatsby-firebase-starter',
   },
   author: {
-    name: 'Ovidiu-Mihai Belciug',
-    photo: '/photo.jpg',
-    bio:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Ondra Hlaváč',
+    photo: '/photo.jpg', // TODO: [OH] Doplnit fotku
+    bio: 'Web application developer from Prague, Czechia',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: 'ovidiumihaibelciug',
-      rss: '#',
-      vkontakte: '#',
+      email: 'ondra@hlavac.cz',
+      twitter: 'ondra_hlavac_cz',
+      github: 'ondrahlavac',
     },
   },
 };
