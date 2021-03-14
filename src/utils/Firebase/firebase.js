@@ -3,11 +3,11 @@ import 'firebase/auth';
 import 'firebase/firestore';
 import 'firebase/functions';
 
-import {config as firebaseConfig} from '../../../firebase-config'
+import config from '../../../firebase-config'
 
 class Firebase {
   constructor() {
-    app.initializeApp(firebaseConfig);
+    app.initializeApp(config);
 
     /* Helper */
 

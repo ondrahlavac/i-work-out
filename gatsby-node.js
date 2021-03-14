@@ -1,12 +1,8 @@
 const path = require('path');
 
-// read .env before loading configs
-require("dotenv").config()
-
 const firebase = require('firebase');
 const routes = require('./templates.js');
 const config = require('./firebase-config');
-
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
